@@ -1,4 +1,4 @@
-.page-content__column{
+.page-content__column {
     display: flex;
     width: 50%; 
     height: 100%;
@@ -7,9 +7,19 @@
     flex-grow: 1;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
     flex-direction: column;
     min-width: 361px;
     position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.map-content {
+    display: flex;
+}
+
+.table-content {
+    display: flex;
 }
